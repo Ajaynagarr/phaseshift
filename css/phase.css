@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+
+body {
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+html {
+    font-size: 15px;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: black;
+    padding: 1.5rem 1rem;
+    width: 100%;
+}
+
+.logo {
+    text-decoration: none;
+    color: white;
+    /* margin-left: 1rem; */
+    font-size:1rem;
+    font-weight:bolder;
+}
+
+span{
+    font-weight:100;
+    font-size:1.3rem;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul li {
+    margin-left: 2rem;
+    list-style: none;
+}
+
+ul a {
+    color: white;
+    text-decoration: none;
+}
+
+.button{
+    display:none;
+    font-size:2rem;
+    padding:1rem;
+    border:none;
+    color:white;
+    background:none;
+}
+
+.inner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.first {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.first p {
+    padding: 4rem 3rem;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    color: white;
+    font-weight: 300;
+}
+
+.btn {
+    background-color: #d84780;
+    color: white;
+    padding: 15px 50px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Heebo', sans-serif;
+    font-size: 1.5rem;
+}
+
+/* second */
+.second {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 4rem 0;
+}
+
+.one {
+    background-color: white;
+    width: 30%;
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.one p {
+    color: gray;
+    padding: 2.4rem 1.5rem;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    line-height: 2rem;
+    font-weight: 300;
+}
+
+.one img {
+    width: 100%;
+}
+
+.six-same {
+    background-color: #d84780;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 7px;
+    font-family: 'Heebo', sans-serif;
+    font-size: 1rem;
+    margin-bottom: 3rem;
+}
+
+.four {
+    width: 48%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3rem 0;
+}
+
+.four h2 {
+    margin-left: 1rem;
+    color: white;
+    font-weight: bold;
+}
+
+.four p {
+    padding: 1rem 4rem;
+    line-height: 1.5rem;
+    color: rgb(203, 201, 201);
+}
+
+.four span {
+    font-size: 3rem;
+    color: white;
+}
+
+.four hr {
+    width: 100%;
+    height: 1px;
+    margin-top: 3rem;
+    background-color: rgb(200, 196, 196);
+    border: none;
+}
+
+/* full-pink */
+.pink {
+    width: 100%;
+    background-color: #d84780;
+    padding: 6rem 0;
+    text-align: center;
+    color: white;
+}
+
+.pink h1 {
+    font-weight: bold;
+    font-size: 2.4rem;
+}
+
+.pink p {
+    font-weight: 200;
+    font-size: 1.3rem;
+    margin-bottom: 3rem;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.form input {
+    width: 80%;
+    height: 3rem;
+    padding: 1rem;
+    margin: 1rem 0;
+    border: none;
+    border-radius: 4px;
+}
+
+.form textarea {
+    width: 80%;
+    height: 10rem;
+    padding: 1rem;
+    margin: 1rem 0;
+    border: none;
+    border-radius: 4px;
+}
+
+.message {
+    border: 1px solid white;
+    margin-top: 2rem;
+}
+
+/* footer */
+footer {
+    background-color: black;
+    width: 100%;
+    color: gray;
+    text-align:center;  
+    padding:3rem;
+}
+
+footer span {
+    color: white;
+    font-size: 2rem;
+    border: 1px solid white;
+    border-radius: 100%;
+    padding: 1.4rem;
+    margin-top:2rem;
+}
+
+/* *{
+    border:1px solid red;
+} */
+
+/* media start */
+@media only screen and (max-width:740px){
+    .button{
+        display:block;
+    }
+
+    nav ul{
+        display:none;
+    }
+
+    .logo{
+        margin-top:1.5rem;
+    }
+
+    .first p{
+        font-size:1.2rem;
+    }
+
+    .pink h1{
+        font-size:1.8rem;
+    }
+
+    .btn{
+        padding:1rem 3rem;
+        font-size:1rem;
+    }
+}
+
+@media only screen and (max-width:800px){
+    .one{
+        width:85%;
+        margin:2rem auto;
+    }
+
+    .four{
+        width:90%;
+        margin:2rem auto;
+    }
+}
